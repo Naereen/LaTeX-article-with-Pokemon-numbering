@@ -12,8 +12,8 @@ test_left:
 	latexmk -gg -pdf test_left.tex
 test_right:
 	latexmk -gg -pdf test_right.tex
-test_rorate:
-	latexmk -gg -pdf test_rorate.tex
+test_rotate:
+	latexmk -gg -pdf test_rotate.tex
 test_lorem:
 	latexmk -gg -pdf test_lorem.tex
 

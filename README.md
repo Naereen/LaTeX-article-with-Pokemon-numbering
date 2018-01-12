@@ -22,10 +22,23 @@ See any of these PDF files (not gitted, on my website):
 
 ----
 
-## How I did that
+## *How I did that?*
+
 See [pokemonnumbering.sty](pokemonnumbering.sty):
 
-- I use [fancyhdr](https://en.wikibooks.org/wiki/LaTeX/Customizing_Page_Headers_and_Footers#Customizing_with_fancyhdr) to add a image to the bottom right or left
+- I use [`fancyhdr`](https://en.wikibooks.org/wiki/LaTeX/Customizing_Page_Headers_and_Footers#Customizing_with_fancyhdr) to add a image to the bottom right or left.
+- I use `adjustbox` package, with `export` option, to force the image to be flushed right or left.
+
+
+Others things:
+
+- This [Makefile](Makefile) contains some build rule to generate the examples. It takes a few minutes to generate all of them.
+
+
+For the [demo document](test.tex):
+
+- This [bash script (get_data.sh)](src/get_data.sh) downloads HTML pages from [this website](https://www.math.miami.edu/~jam/azure/pokedex/species/001.htm), converts them to Markdown, extract the text, and save the data for each Pokémon as a json file. See [1.json](src/1.json) for example (for Bulbasaur).
+- This [Python script (json2tex.py)](src/json2tex.py) converts this json file to a LaTeX file, using [this template](src/_template.tex). See [1.tex](src/1.tex) for example (for Bulbasaur).
 
 
 ----
