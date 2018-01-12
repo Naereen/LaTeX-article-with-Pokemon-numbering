@@ -21,11 +21,11 @@ Experiment to have a LaTeX article class which includes a small Pokémon image, 
 ## Demo
 See any of these PDF files (not gitted, on my website):
 
-- [test](test.pdf) is the default document,
-- [test_left](test_left.pdf) shows the `left` option,
-- [test_right](test_right.pdf) shows the `right` option (is the same as the default document),
-- [test_rotate](test_rotate.pdf) shows the `rotate` option,
-- [test_lorem](test_lorem.pdf) test with a dummy text.
+- [test](https://perso.crans.org/besson/publis/LaTeX-article-with-Pokemon-numbering.git/test.pdf) is the default document,
+- [test_left](https://perso.crans.org/besson/publis/LaTeX-article-with-Pokemon-numbering.git/test_left.pdf) shows the `left` option,
+- [test_right](https://perso.crans.org/besson/publis/LaTeX-article-with-Pokemon-numbering.git/test_right.pdf) shows the `right` option (is the same as the default document),
+- [test_rotate](https://perso.crans.org/besson/publis/LaTeX-article-with-Pokemon-numbering.git/test_rotate.pdf) shows the `rotate` option,
+- [test_lorem](https://perso.crans.org/besson/publis/LaTeX-article-with-Pokemon-numbering.git/test_lorem.pdf) test with a dummy text.
 
 ## Screenshots
 > Here are a few examples:
