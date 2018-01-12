@@ -3,7 +3,7 @@
 Experiment to have a LaTeX article class which includes a small Pokémon image, in every page (on the bottom right or left), instead of numbering with indexes!
 
 ## How to use this
-1. First, [don't use this code](http://seriously.dontusethiscode.com/), it's stupid.
+1. First, [don't use this code](https://seriously.dontusethiscode.com/), it's stupid.
 2. Now, to use it:
    - Git clone this repository,
    - Copy the [`icons`](icons) and [`pokemonnumbering.sty`](pokemonnumbering.sty) in your own directory, wherever you are writing your LaTeX document,
@@ -96,10 +96,10 @@ The package can be loaded with an option:
 
 [![Contains-Pokémon](https://img.shields.io/badge/Contains-Pokémons-7fb78a.svg)](https://github.com/Naereen/LaTeX-article-with-Pokemon-numbering/tree/master/icons/)
 
-[![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)
+[![ForTheBadge built-with-swag](https://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)
 
-[![ForTheBadge uses-badges](http://ForTheBadge.com/images/badges/uses-badges.svg)](http://ForTheBadge.com)
-[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
-[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
-[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
-[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-badges](https://ForTheBadge.com/images/badges/uses-badges.svg)](https://ForTheBadge.com)
+[![ForTheBadge uses-git](https://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
+[![ForTheBadge uses-css](https://ForTheBadge.com/images/badges/uses-css.svg)](https://ForTheBadge.com)
+[![ForTheBadge uses-html](https://ForTheBadge.com/images/badges/uses-html.svg)](https://ForTheBadge.com)
+[![ForTheBadge uses-js](https://ForTheBadge.com/images/badges/uses-js.svg)](https://ForTheBadge.com)
