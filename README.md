@@ -2,6 +2,22 @@
 
 Experiment to have a LaTeX article class which includes a small Pokémon image, in every page (on the bottom right or left), instead of numbering with indexes!
 
+## How to use this
+1. First, [don't use this code](http://seriously.dontusethiscode.com/), it's stupid.
+2. Now, to use it:
+   - Git clone this repository,
+   - Copy the [`icons`](icons) and [`pokemonnumbering.sty`](pokemonnumbering.sty) in your own directory, wherever you are writing your LaTeX document,
+   - Use this LaTeX code in your own document:
+     ```tex
+     \usepackage{pokemonnumbering}  % default
+     ```
+   - After your introduction, abstract etc, when you want to start numbering your pages with Pokémon, use this LaTeX code:
+     ```tex
+     \pokemonnumbering
+     ```
+   - And don't write a document with more than 151 pages! I was lazy and only include the Pokémon from the first generation!
+   - Compile with `pdflatex`, `xelatex` or `luatex` (it must support PNG images).
+
 ## Demo
 See any of these PDF files (not gitted, on my website):
 
