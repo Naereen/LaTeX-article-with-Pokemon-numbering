@@ -14,11 +14,16 @@ See any of these PDF files (not gitted, on my website):
 ## Screenshots
 > Here are a few examples:
 
-![screenshot/example1.png](screenshot/example1.png)
-![screenshot/example2.png](screenshot/example2.png)
-![screenshot/example3.png](screenshot/example3.png)
-![screenshot/example4.png](screenshot/example4.png)
-![screenshot/example5.png](screenshot/example5.png)
+
+![screenshots/demo1.png](screenshots/demo1.png)
+
+![screenshots/demo2.png](screenshots/demo2.png)
+
+![screenshots/demo3.png](screenshots/demo3.png)
+
+![screenshots/demo4.png](screenshots/demo4.png)
+
+![screenshots/demo5.png](screenshots/demo5.png)
 
 ----
 
