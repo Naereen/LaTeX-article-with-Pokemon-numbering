@@ -1,0 +1,3 @@
+# don't track auto generated files
+*.tex
+*.json
