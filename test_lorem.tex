@@ -1,0 +1,56 @@
+\documentclass[a4paper,12pt]{article}
+%% Well understand input, and nice output
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks}  % uncomment this line if you prefer colored hyperlinks (e.g., for onscreen viewing)
+
+\usepackage{palatino}
+
+% For graphics / images
+\usepackage{graphicx}
+\graphicspath{{graphics/}}
+\DeclareGraphicsExtensions{.pdf,.eps,.png,.jpg}
+
+%% Easy for loop for LaTeX
+% https://stackoverflow.com/a/5958641/
+\usepackage{pgffor}
+
+\usepackage{pokemonnumbering}
+
+% Metadata
+\title{Pokédex}
+\author{Lilian Besson}
+
+\begin{document}
+
+% full title page
+\maketitle
+\thispagestyle{empty}
+
+\tableofcontents
+
+
+\pokemonnumbering
+
+\foreach \n in {1,...,151}{
+\clearpage
+\section{Test section}
+
+Proident consectetur esse ad aliquip exercitation culpa velit Lorem. Nulla nostrud nulla officia quis mollit amet. Officia ullamco nostrud irure velit laboris id eu laboris labore aute consectetur minim. Culpa sint ut officia velit quis. Aute proident excepteur cillum velit et voluptate. Veniam veniam nulla pariatur labore. Deserunt nisi ex magna excepteur occaecat pariatur in aliqua officia.
+
+Anim mollit laborum incididunt ex quis ut duis Lorem ex. Voluptate aliquip ea dolore enim. Ut sit velit tempor proident duis. Sint sit magna cillum culpa officia dolore nisi.
+
+Magna amet adipisicing ad sit consectetur et non laboris eiusmod labore ipsum elit. Et magna dolor nulla cillum occaecat eiusmod aliquip anim et elit aliqua eu culpa commodo. Velit non commodo ullamco ullamco et occaecat aliquip esse laborum velit id Lorem pariatur consectetur.
+
+Ea amet laboris aute excepteur adipisicing duis dolore ad eiusmod. Occaecat sit tempor nulla ad. Enim eu officia duis labore cupidatat commodo ullamco anim proident consectetur sint incididunt voluptate.
+
+Fugiat exercitation in enim adipisicing sint fugiat proident enim sunt. Tempor fugiat pariatur commodo enim pariatur in fugiat proident fugiat elit et aliqua est mollit. Officia consectetur pariatur Lorem ut cillum.
+
+Nulla cupidatat irure ad mollit aute proident duis velit. Commodo sunt voluptate cillum consectetur veniam officia. Qui cupidatat anim anim ipsum labore qui. Ut officia irure adipisicing ea irure pariatur consectetur minim ex et anim culpa. Elit sunt excepteur eu magna et.
+}
+
+\end{document}

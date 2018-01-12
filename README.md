@@ -3,10 +3,52 @@
 Experiment to have a LaTeX article class which includes a small Pokémon image, in every page (on the bottom right or left), instead of numbering with indexes!
 
 ## Demo
-FIXME
+See any of these PDF files (not gitted, on my website):
+
+- [test](test.pdf) is the default document,
+- [test_left](test_left.pdf) shows the `left` option,
+- [test_right](test_right.pdf) shows the `right` option (is the same as the default document),
+- [test_rorate](test_rorate.pdf) shows the `rotate` option,
+- [test_lorem](test_lorem.pdf) test with a dummy text.
+
+## Screenshots
+> Here are a few examples:
+
+![screenshot/example1.png](screenshot/example1.png)
+![screenshot/example2.png](screenshot/example2.png)
+![screenshot/example3.png](screenshot/example3.png)
+![screenshot/example4.png](screenshot/example4.png)
+![screenshot/example5.png](screenshot/example5.png)
+
+----
 
 ## How I did that
-FIXME
+See [pokemonnumbering.sty](pokemonnumbering.sty):
+
+- I use [fancyhdr](https://en.wikibooks.org/wiki/LaTeX/Customizing_Page_Headers_and_Footers#Customizing_with_fancyhdr) to add a image to the bottom right or left
+
+
+----
+
+## Options
+By default, the Pokémon images are inserted on the bottom right corner.
+The package can be loaded with an option:
+
+- `right` : by default,
+```tex
+\usepackage[right]{pokemonnumbering}  % default
+```
+
+- `left` : insert them in the bottom left corner instead,
+```tex
+\usepackage[left]{pokemonnumbering}
+```
+
+- `rotate` : rotate the image by 20° (clock-wise if right, counter clock-wise if left),
+```tex
+\usepackage[rotate]{pokemonnumbering}
+```
+
 
 ----
 
