@@ -3,29 +3,27 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 
 \usepackage{hyperref}
 \hypersetup{colorlinks}  % uncomment this line if you prefer colored hyperlinks (e.g., for onscreen viewing)
 
-% Metadata
-\title{Pokédex}
-\author{Lilian Besson}
-
 \usepackage{palatino}
 
-%%
 % For graphics / images
 \usepackage{graphicx}
 \graphicspath{{graphics/}}
 \DeclareGraphicsExtensions{.pdf,.eps,.png,.jpg}
 
-% FIXME
-\usepackage{pokemonnumbering}
-
 %% Easy for loop for LaTeX
 % https://stackoverflow.com/a/5958641/
 \usepackage{pgffor}
+
+\usepackage[left,rotate]{pokemonnumbering}
+
+% Metadata
+\title{Pokédex}
+\author{Lilian Besson}
 
 \begin{document}
 
@@ -33,11 +31,14 @@
 \maketitle
 \thispagestyle{empty}
 
-\clearpage
-\pagenumbering{arabic}
+\tableofcontents
+
+
+\pokemonnumbering
 
 % all the Pokémons (fake for now)
 % \foreach \n in {1}{
+% \foreach \n in {1,...,3}{
 \foreach \n in {1,...,151}{
     \input{src/\n.tex}
 }
