@@ -24,7 +24,7 @@ See any of these PDF files (not gitted, on my website):
 - [test](test.pdf) is the default document,
 - [test_left](test_left.pdf) shows the `left` option,
 - [test_right](test_right.pdf) shows the `right` option (is the same as the default document),
-- [test_rorate](test_rorate.pdf) shows the `rotate` option,
+- [test_rotate](test_rotate.pdf) shows the `rotate` option,
 - [test_lorem](test_lorem.pdf) test with a dummy text.
 
 ## Screenshots
