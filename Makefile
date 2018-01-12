@@ -3,6 +3,7 @@
 # The MIT License (MIT)
 # https://github.com/Naereen/LaTeX-article-with-Pokemon-numbering
 #
+SHELL=/usr/bin/env /bin/bash
 
 all_test:	test test_left test_right test_rorate test_lorem
 
@@ -16,6 +17,10 @@ test_rotate:
 	latexmk -gg -pdf test_rotate.tex
 test_lorem:
 	latexmk -gg -pdf test_lorem.tex
+
+send:	send_zamok
+send_zamok:
+	CP --exclude=.git ./ ${Szam}publis/LaTeX-article-with-Pokemon-numbering.git/
 
 clean:
 	latexmk -c
